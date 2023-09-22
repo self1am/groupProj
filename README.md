@@ -1,6 +1,6 @@
 # Academic Progress Tracking System
 
-This is an academic progress tracking system designed to help high school students improve their academic performance. The system allows students to manage their studies, access educational resources, and interact with tutors and peers.
+This is an academic progress tracking system designed to help high school students improve their academic performance. The system allows students to manage their studies, access educational resources, and interact with tutors and peers. For the scope of this project it is being tested amongst G.C.E. Advanced Level Students of Sri Lanka, studying under different strean of Subjects. The future scope of this project will develop to any type of advanced learning.
 
 ## Table of Contents
 
