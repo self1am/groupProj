@@ -16,7 +16,6 @@ $tutor = TutorController::getTutorById($_SESSION['tutor_id']);
 // Load tutor's courses, students' progress, or other relevant data.
 
 // Include the HTML header and navigation menu.
-include("header.php");
 ?>
 
 <html lang="en">
