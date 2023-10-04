@@ -1,0 +1,173 @@
+.Dashboard{
+    width: 1512px; height: 982px; position: relative; background: #F4F7FE
+}
+
+.Rectangle169 {
+    width: 742px;
+    height: 943px;
+    left: 356px;
+    top: 18px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px -1px 13px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+  }
+  
+  .Rectangle177 {
+    width: 366px;
+    height: 523px;
+    left: 1119px;
+    top: 438px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px -1px 13px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+  }
+  
+  .Rectangle178 {
+    width: 366px;
+    height: 403px;
+    left: 1119px;
+    top: 18px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px -1px 13px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+  }
+  
+  .AcademicCalendar {
+    left: 1138px;
+    top: 49px;
+    position: absolute;
+    color: black;
+    font-size: 22.78px;
+    font-family: DM Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .Reminders {
+    left: 1138px;
+    top: 450px;
+    position: absolute;
+    color: black;
+    font-size: 22.78px;
+    font-family: DM Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .Rectangle168 {
+    width: 318px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+  }
+  
+/* ========== Scrollable Gallery ============= */
+
+.GalleryScroll {
+    width: 1042px;
+    height: 2124px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: white;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    display: inline-flex;
+  }
+  
+  .Columns {
+    height: 1996px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    display: flex;
+  }
+  
+  .Column {
+    width: 260px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+  }
+  
+  .Content {
+    align-self: stretch;
+    height: 276px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: flex;
+  }
+  
+  .ImageWrapper {
+    align-self: stretch;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .Image {
+    align-self: stretch;
+    height: 380px;
+  }
+  
+  .VirtualBooths,
+  .AccessToDashboard,
+  .LeadRetrieval,
+  .LeadScoring,
+  .SponsoredSections {
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 36px;
+    word-wrap: break-word;
+  }
+  
+  .VirtualBooths,
+  .AccessToDashboard,
+  .LeadRetrieval,
+  .LeadScoring,
+  .SponsoredSections {
+    align-self: stretch;
+  }
+  
+  .VirtualBooths,
+  .AccessToDashboard,
+  .LeadRetrieval,
+  .LeadScoring,
+  .SponsoredSections {
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 36px;
+    word-wrap: break-word;
+  }
+  
+  .ImageWrapper .VirtualBooths,
+  .ImageWrapper .AccessToDashboard,
+  .ImageWrapper .LeadRetrieval,
+  .ImageWrapper .LeadScoring,
+  .ImageWrapper .SponsoredSections {
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 36px;
+    word-wrap: break-word;
+  }
+/* ========== */
+

@@ -1,0 +1,404 @@
+/* =============== Student Domain Specific Styles =============== */
+
+/* Header Styles */
+.header {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Profile Page Styles */
+  .profile-details {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-details h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  /* Course Catalog Styles */
+  .course-card {
+    background-color: var(--gray);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Assignment Submission Styles */
+  .assignment-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-upload {
+    margin-top: 10px;
+  }
+  
+  /* Discussion Forum Styles */
+  .forum-post {
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forum-post h3 {
+    font-size: 1.2rem;
+  }
+  
+  .forum-post p {
+    margin-top: 10px;
+    color: var(--black2);
+  }
+  
+  /* Notification Styles */
+  .notification {
+    background-color: var(--gray);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+  }
+  
+/* Responsive Design */
+
+/* For screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    /* Adjust the font size for better readability on smaller screens */
+    .header h1 {
+      font-size: 1.5rem;
+    }
+    
+    .profile-details {
+      margin: 10px;
+      padding: 10px;
+    }
+    
+    .course-card {
+      padding: 10px;
+      margin: 5px;
+    }
+    
+    .assignment-form {
+      margin: 10px;
+      padding: 10px;
+    }
+    
+    .forum-post {
+      padding: 15px;
+      margin: 5px 0;
+    }
+    
+    .notification {
+      padding: 5px;
+      margin: 5px;
+    }
+  }
+
+  /* ========== instructor card =========== */
+
+  
+  /* For screens smaller than 480px (smartphones) */
+  @media (max-width: 480px) {
+    .header h1 {
+      font-size: 1.2rem;
+    }
+    
+    .profile-details {
+      margin: 5px;
+      padding: 5px;
+    }
+    
+    .profile-picture {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .profile-details h2 {
+      font-size: 1.2rem;
+    }
+    
+    .course-card {
+      padding: 5px;
+      margin: 3px;
+    }
+    
+    .assignment-form {
+      margin: 5px;
+      padding: 5px;
+    }
+    
+    .forum-post {
+      padding: 10px;
+      margin: 3px 0;
+    }
+    
+    .notification {
+      padding: 3px;
+      margin: 3px;
+    }
+  }
+
+  /* ======== Instructor Profiles ============== */
+
+/* Instructor Profile Styles */
+.Instructor {
+    position: relative;
+    width: 312px;
+    height: 508px;
+    padding-bottom: 20px;
+    background: white;
+    border: 1px #E9EAF0 solid;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    display: inline-flex;
+  }
+  
+  .Instructor .Image {
+    width: 100%;
+    max-height: 312px;
+    object-fit: cover;
+    box-shadow: 0px -1px 0px #E9EAF0 inset;
+  }
+  
+  .Instructor .Info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    display: flex;
+  }
+  
+  .Instructor .InstructorName {
+    width: 272px;
+    text-align: center;
+    color: #1D2026;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .Instructor .Headline {
+    width: 272px;
+    text-align: center;
+    color: #8C94A3;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+  }
+  
+  .Instructor .Devider {
+    width: 312px;
+    height: 0px;
+    border: 1px #E9EAF0 solid;
+  }
+  
+  .Instructor .RatingStudents {
+    width: 312px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .Instructor .Rating {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+  }
+  
+  .Instructor .Rating .Star {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .Instructor .Rating .Star .Star {
+    width: 20px;
+    height: 20px;
+    position: relative;
+  }
+  
+  .Instructor .Rating .Star .Star .Vector {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  
+  .Instructor .Rating .Star .Star .Vector .Vector {
+    width: 16.25px;
+    height: 15.62px;
+    left: 1.87px;
+    top: 1.88px;
+    position: absolute;
+    background: #FD8E1F;
+  }
+  
+  .Instructor .Rating .RatingValue {
+    color: #4E5566;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+  
+  .Instructor .stDetails {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .Instructor .stDetails .StudentCount {
+    color: #4E5566;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+  
+  .Instructor .stDetails .Students {
+    color: #8C94A3;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding-left: 4px;
+  }
+  
+  .Instructor .Buttons {
+    width: 272px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #FFEEE8;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+  }
+  
+  .Instructor .Button {
+    color: #FF6636;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 40px;
+    word-wrap: break-word;
+  }
+  
+
+  /* ====== Dashboard ======== */
+
+  .indicators{
+    width: 312px; 
+    height: 108px; 
+    padding: 24px; 
+    background: #FFEEE8; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 24px; 
+    display: inline-flex
+  }
+
+  .indicators .graphic{
+    padding: 14px; 
+    background: white; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: flex
+  }
+
+  .indicators .graphic .icon{
+    width: 32px; 
+    height: 32px; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex
+  }
+
+  .indicators .info{
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 6px; 
+    display: inline-flex
+  }
+
+  .indicators .info .no{
+    width: 180px; 
+    color: #1D2026; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+
+  .indicators .info .tag{
+    width: 180px; 
+    color: #4E5566; 
+    font-size: 14px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 22px; 
+    word-wrap: break-word
+  }
+
+  .kpi-icon{
+    position: relative; padding-right: 20px; padding-top: 22px;
+  }
+
+  
