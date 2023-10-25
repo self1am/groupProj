@@ -1,8 +1,10 @@
 <?php 
 
+echo "shamah";
+
 spl_autoload_register(function($classname){
 
-	require $filename = "../app/models/".ucfirst($classname).".php";
+	require_once "../models/".ucfirst($classname).".php";
 });
 
 require 'config.php';

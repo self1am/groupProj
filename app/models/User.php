@@ -7,13 +7,14 @@
 class User
 {
 	
-	use Model;
+	use Model
 
-	protected $table = 'users';
+	protected $table = 'Student';
 
 	protected $allowedColumns = [
 
 		'email',
+		'username'
 		'password',
 	];
 

@@ -3,29 +3,29 @@
 if($_SERVER['SERVER_NAME'] == 'localhost')
 {
 	/** database config **/
-	define('DBNAME', 'my_db');
+	define('DBNAME', 'GroupProj');
 	define('DBHOST', 'localhost');
 	define('DBUSER', 'root');
 	define('DBPASS', '');
 	define('DBDRIVER', '');
 	
-	define('ROOT', 'http://localhost/mvc/public');
+	define('ROOT', 'http://localhost/GroupProject/public');
 
 }else
 {
 	/** database config **/
-	define('DBNAME', 'my_db');
+	define('DBNAME', 'GroupProj');
 	define('DBHOST', 'localhost');
 	define('DBUSER', 'root');
 	define('DBPASS', '');
 	define('DBDRIVER', '');
 
-	define('ROOT', 'https://www.yourwebsite.com');
+	define('ROOT', 'https://www.iQube.com');
 
 }
 
-define('APP_NAME', "My Webiste");
-define('APP_DESC', "Best website on the planet");
+define('APP_NAME', "iQube");
+define('APP_DESC', "Empowering Education through Personalizing Learnign");
 
 /** true means show errors **/
 define('DEBUG', true);

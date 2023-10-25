@@ -145,6 +145,7 @@ line-height: normal;
   left: 240px; /* Adjust sidebar width */
   min-height: 100vh;
   background: #F1F4FA;
+  
   transition: width 0.5s, left 0.5s; /* Add transitions for smooth effects */
 }
 

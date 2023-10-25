@@ -184,14 +184,17 @@
     width: 312px;
     height: 508px;
     padding-bottom: 20px;
-    background: white;
-    border: 1px #E9EAF0 solid;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
     border-radius: 10px;
     display: inline-flex;
+    background: rgba(190, 171, 171, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(190, 171, 171, 0.26);
   }
   
   .Instructor .Image {
@@ -400,5 +403,15 @@
   .kpi-icon{
     position: relative; padding-right: 20px; padding-top: 22px;
   }
+
+.glass{
+  background: rgba(89, 58, 205, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(89, 58, 205, 0.28);
+}
+
 
   

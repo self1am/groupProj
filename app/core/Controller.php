@@ -4,16 +4,24 @@
 Trait Controller
 {
 
-	public function view($name)
+	public function view($dname, $fname)
 	{
-		$filename = "../app/views/".$name.".view.php";
-		if(file_exists($filename))
-		{
-			require $filename;
-		}else{
+
+		$foldername = "../app/views/".$dname."/";
+		if (file_exists($foldername)) {
+			$filename = $foldername.$fname.".view.php";
+			if(file_exists($filename))
+			{
+				require $filename;
+			}else{
 
 			$filename = "../app/views/404.view.php";
 			require $filename;
+			}
+		}else{
+			$filename = "../app/views/404.view.php";
+			require $filename;
 		}
+		
 	}
 }

@@ -12,13 +12,14 @@ class App
 		$URL = explode("/", trim($URL,"/"));
 		return $URL;	
 	}
+	
 
 	public function loadController()
 	{
 		$URL = $this->splitURL();
 
 		/** select controller **/
-		$filename = "../app/controllers/".ucfirst($URL[0]).".php";
+		$filename = "../app/controllers/Home.php";
 		if(file_exists($filename))
 		{
 			require $filename;
