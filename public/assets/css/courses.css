@@ -28,11 +28,15 @@
     justify-content: center;
     align-items: center;
     gap: 14px;
-    background: var(--white);
+    background: #7DAOCA;
     cursor: pointer;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
     padding: 20px; /* Added padding for better spacing */
-    border-radius: 8px; /* Added border radius for rounded corners */
+    
+  }
+
+  .courseCard:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
   
   .courseCard .img {

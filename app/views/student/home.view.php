@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="<?=ROOT?>/assets/css/courses.css">
     <link rel="stylesheet" href="<?=ROOT?>/assets/css/style.css">
     <link rel="stylesheet" href="<?=ROOT?>/assets/css/student.css">
@@ -13,51 +14,7 @@
 <body>
     <div class="container">
         <!-- start of sidebar -->
-        <div id="sidebarx" class="sidebar">
-            <div class="sidebar-top">
-              <div class="usericon"><img src="<?=ROOT?>/assets/img/hanafe.JPG" alt="Profile Image"></div>
-              <div class="userdetails">
-                <ul>
-                  <li>Hanafe Mira</li>
-                  <li style="font-size: 10px; opacity: 0.5;">Student</li>
-                </ul>
-              </div>
-            </div>
-            <div class="sidebar_content">
-              <a href="#home">
-                <span class="naviconBx"><i class="fa fa-tachometer" aria-hidden="true"></i></span>
-                <span class="naviconBx">Dashboard</span>
-              </a>
-              <a href="#news">
-                <span class="naviconBx"><i class="fa-solid fa-person-chalkboard"></i></span>
-                <span class="naviconBx">Syllabus</span>
-              </a>
-              <a class="active" href="#contact">
-                <span class="naviconBx"><i class="fa-solid fa-download"></i></span>
-                <span class="naviconBx">Courses</span>
-              </a>
-              <a href="#about">
-                <span class="naviconBx"><i class="fa-solid fa-graduation-cap"></i></span>
-                <span class="naviconBx">Schedule</span>
-              </a>
-              <a href="#about">
-                <span class="naviconBx"><i class="fa-solid fa-comment-dots"></i></span>
-                <span class="naviconBx">Tutors</span>
-              </a>
-              <a href="#about">
-                <span class="naviconBx"><i class="fa-solid fa-comment-dots"></i></span>
-                <span class="naviconBx">Wishlist</span>
-              </a>
-              <a href="#about">
-                <span class="naviconBx"><i class="fa-solid fa-gear"></i></span>
-                <span class="naviconBx">Settings</span>
-              </a>
-              <a href="#about">
-                <span class="naviconBx"><i class="fa-solid fa-right-from-bracket"></i></span>
-                <span class="naviconBx">Logout</span>
-              </a>
-            </div>
-        </div>
+        <?php include "../app/views/components/sidebar.php"?>
 
         <div class="main">
           <div class="topbar">
@@ -88,7 +45,7 @@
                     <path d="M14.2501 8.25H9.75012" stroke="#1D2026" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </div>
-                <div class="text">
+                <div class="text" style="font-family: 'Courier New', Courier, monospace;">
                   Filters
                 </div>
               </div>
@@ -574,5 +531,23 @@
           </div>
         </div>
     </div>
+
+    <script>
+      const sidebar = document.getElementById('sidebar');
+      const sidebarIcon = document.getElementById('sidebar-icon');
+      const menu = document.getElementById('menu');
+
+      sidebarIcon.addEventListener('click', () => {
+          sidebar.classList.toggle('expanded');
+      });
+
+      // Close sidebar when clicking outside of it
+      document.addEventListener('click', (event) => {
+        if (!sidebar.contains(event.target) && sidebar.classList.contains('expanded')) {
+            sidebar.classList.remove('expanded');
+        }
+      });
+
+        </script>
 </body>
 </html>
