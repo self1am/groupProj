@@ -22,7 +22,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background-color: #F1F4FA;
-  
 }
 
 .container {
@@ -162,9 +161,20 @@ body {
   width: calc(100% - 240px); /* Adjust sidebar width */
   left: 240px; /* Adjust sidebar width */
   min-height: 100vh;
-  background: #F1F4FA;
-  
+  /* background-image: repeating-linear-gradient(to top right, #C1E8FF, #05275960); */
+  background-color: aliceblue;
+  padding: 20px;
   transition: width 0.5s, left 0.5s; /* Add transitions for smooth effects */
+}
+
+.title{
+  text-align: center; /* Center the title horizontally */
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Apply a bold font weight */
+    padding: 20px 0; /* Add padding for spacing */
+    background-color: #f0f0f0; /* Optional background color */
+    color: #333; /* Text color */
+    border-bottom: 1px solid #ccc; 
 }
 
 .main.active {

@@ -1,0 +1,47 @@
+/* TopNav */
+.topbar{
+    display: flex;
+    width: 100%;
+    padding: 0px 32px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+}
+
+.topbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.topbar li {
+    float: left;
+}
+
+.topbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.topbar li a:hover.active{
+    background-color: #04AA6D;
+}
+
+.signin{
+    float: right;
+}
+
+/* headerelement */
+.header{
+    
+}

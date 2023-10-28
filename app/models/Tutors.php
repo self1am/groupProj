@@ -4,18 +4,18 @@
 /**
  * User class
  */
-class Tutor
+class Tutors
 {
 	
-	use Model
+	use Model;
 
 	protected $table = 'Tutor';
 
 	protected $allowedColumns = [
 
 		'email',
-		'username'
-		'password',
+		'username',
+		'password'
 	];
 
 	public function validate($data)

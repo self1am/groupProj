@@ -1,9 +1,9 @@
 <?php 
 
 /**
- * home class
+ * tutor class
  */
-class Home
+class Tutors
 {
 	use Controller;
 

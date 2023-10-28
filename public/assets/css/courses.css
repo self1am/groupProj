@@ -32,11 +32,17 @@
     cursor: pointer;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
     padding: 20px; /* Added padding for better spacing */
-    
+    transition: transform 0.3s;
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .courseCard:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.015); /* Enlarge the card on hover */
   }
   
   .courseCard .img {

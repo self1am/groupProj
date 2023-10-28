@@ -7,15 +7,15 @@
 class User
 {
 	
-	use Model
+	use Model;
 
 	protected $table = 'Student';
 
 	protected $allowedColumns = [
 
 		'email',
-		'username'
-		'password',
+		'username',
+		'password'
 	];
 
 	public function validate($data)

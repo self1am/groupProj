@@ -10,7 +10,7 @@ class Course
 	public function index()
 	{
 
-		$this->view('student/course');
+		$this->view('student','course');
 	}
 
 }
