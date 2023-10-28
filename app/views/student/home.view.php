@@ -547,5 +547,7 @@
       });
 
         </script>
+     <script src="<?=ROOT?>/assets/js/index.js" defer></script>
+
 </body>
 </html>

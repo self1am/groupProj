@@ -1,0 +1,24 @@
+.gantt_task {
+    background-color: #7DA0CA; /* Task bar color */
+    color: #052659; /* Text color for tasks */
+}
+
+/* Selected task bar */
+.gantt_task.gantt_selected {
+    background-color: #FFA586; /* Color for selected task */
+}
+
+/* Rows */
+.gantt_row {
+    border-bottom: 1px solid #384358; /* Border between rows */
+}
+
+/* Scale cells */
+.gantt_grid_scale .gantt_scale_cell {
+    border-right: 1px solid #384358; /* Border between columns */
+}
+
+/* Last column */
+.gantt_grid_scale .gantt_scale_cell.gantt_last_cell {
+    border-right: none; /* Remove right border for the last column */
+}

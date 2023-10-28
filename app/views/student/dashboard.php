@@ -42,6 +42,7 @@
         <!-- Footer content -->
     </footer>
 
-    <script src="assets/js/index.js"></script>
+    <script src="<?=ROOT?>/assets/js/index.js" defer></script>
+
 </body>
 </html>

@@ -226,5 +226,7 @@
         document.getElementById("sidebar").style.width = "0";
       }
     </script>
+    <script src="<?=ROOT?>/assets/js/index.js"></script>
+
 </body>
 </html>

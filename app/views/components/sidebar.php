@@ -15,19 +15,19 @@
       <span class="text">Dashboard</span>
     </a>
     <a href="<?=ROOT?>/syllabus">
-      <span class="icon"><i class="fa-solid fa-person-chalkboard"></i></span>
+      <span class="icon"><i class="fa-brands fa-leanpub"></i></span>
       <span class="text">Syllabus</span>
     </a>
-    <a class="active" href="<?=ROOT?>/home">
+    <a href="<?=ROOT?>/home">
       <span class="icon"><i class="fa-solid fa-download"></i></span>
       <span class="text">Courses</span>
     </a>
-    <a href="#about">
+    <a href="<?=ROOT?>/schedule">
       <span class="icon"><i class="fa-solid fa-graduation-cap"></i></span>
       <span class="text">Schedule</span>
     </a>
     <a href="<?=ROOT?>/tutors">
-      <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
+      <span class="icon"><i class="fa-solid fa-chalkboard-user"></i></span>
       <span class="text">Tutors</span>
     </a>
     <a href="#about">
@@ -44,4 +44,6 @@
     </a>
   </div>
 </div>
+
+
 

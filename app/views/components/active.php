@@ -1,4 +1,5 @@
-// Get the current URL or set an identifier for the current page
+<script>
+    // Get the current URL or set an identifier for the current page
 var currentURL = window.location.pathname;
 
 // Select all links in the navigation bar
@@ -10,3 +11,5 @@ navLinks.forEach(function(link) {
         link.classList.add('active'); // Add the "active" class to the current page link
     }
 });
+
+</script>

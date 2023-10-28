@@ -59,5 +59,7 @@
             </div>
         </div>
     </div> 
+    <script src="<?=ROOT?>/assets/js/index.js"></script>
+
 </body>
 </html>
