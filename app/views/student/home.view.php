@@ -66,6 +66,7 @@
 
       <div class="coursePane">
         <div class="course-col">
+          <a href="<?=ROOT?>/singleCourse">
           <div class="courseCard">
             <div class="img">
               <img src="<?=ROOT?>/assets/img/physics.png" alt="">
@@ -104,6 +105,7 @@
               </div>
             </div>
           </div>
+          </a>
           <div class="courseCard">
             <div class="img">
               <img src="<?=ROOT?>/assets/img/physics.png" alt="">

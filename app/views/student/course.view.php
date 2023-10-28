@@ -294,6 +294,7 @@
                   </div>
                 </div>
               </div>
+              <a href="<?=ROOT?>/singleCourse">
               <div class="courseCard">
                 <div class="img">
                   <img src="../../assets/img/physics.png" alt="">
@@ -332,6 +333,7 @@
                   </div>
                 </div>
               </div>
+              </a>
               <div class="courseCard">
                 <div class="img">
                   <img src="../../assets/img/physics.png" alt="">
