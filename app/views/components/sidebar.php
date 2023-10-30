@@ -1,7 +1,7 @@
 <div id="sidebarx" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="sidebar-top">
-    <div class="usericon"><img src="<?=ROOT?>/assets/img/hanafe.JPG" alt="Profile Image"></div>
+    <a style="padding: 4px;" href="<?=ROOT?>/profile"><div class="usericon"><img src="<?=ROOT?>/assets/img/hanafe.JPG" alt="Profile Image"></div></a>
     <div class="userdetails">
       <ul>
         <li>Hanafe Mira</li>
@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="sidebar_content">
-    <a href="<?=ROOT?>/profile">
+    <a href="<?=ROOT?>/dashboard">
       <span class="icon"><i class="fa fa-tachometer" aria-hidden="true"></i></span>
       <span class="text">Dashboard</span>
     </a>

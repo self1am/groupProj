@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?=ROOT?>/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -21,10 +22,7 @@
         <div class="cardBox">
             <div class="card">
                 <div class="numbers">5</div>
-                <div class="cardName">Courses Enrolled</div>
-                <div class="iconBx">
-                    <i class="fas fa-book"></i> <!-- Add an icon here -->
-                </div>
+                <div class="cardName" style="padding-top: 5px;">Courses Enrolled</div>
             </div>
             <div class="class">
                 <div class="cardName"><center>Progress</center></div>

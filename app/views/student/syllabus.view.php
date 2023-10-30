@@ -12,6 +12,7 @@
     <?php require_once("../app/views/components/sidebar.php"); ?>
     
     <div class="main">
+        <? require_once("../app/views/components/title.php"); ?>
         <div class="cardBox">
             <div class="card">
                 <h3 class="cardName">Measurements</h3>

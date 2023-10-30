@@ -1,0 +1,91 @@
+/* General Dashboard Styles */
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Progress Summary Section */
+.progress-summary {
+    flex: 1;
+    max-width: 300px;
+}
+
+.progress-bar {
+    margin-bottom: 20px;
+}
+
+.progress-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress-track {
+    background-color: #f0f0f0;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background-color: #052659;
+    color: #fff;
+    height: 100%;
+    line-height: 15px;
+    text-align: center;
+}
+
+/* Subject Progress Bars */
+.subject-progress-bar {
+    margin-bottom: 10px;
+}
+
+.subject-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Course Completion Section */
+.course-completion {
+    flex: 1;
+    max-width: 300px;
+}
+
+.course-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course-card {
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.course-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-progress {
+    font-size: 14px;
+}
+
+/* Performance Metrics Section */
+.performance-metrics {
+    flex: 1;
+}
+
+.metric-charts {
+    display: flex;
+    gap: 20px;
+}
+
+/* Additional Styling for Charts (Chart.js) */
+canvas {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
