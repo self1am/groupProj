@@ -89,3 +89,66 @@ canvas {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+/* Styles for Achievements section */
+.achievements-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card styles */
+.card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-header {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.btn {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2e86de;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #1e3799;
+}
+
+/* List styles */
+.achievements-list {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements-list li {
+    margin-bottom: 10px;
+}
+
+.achievement-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    display: block;
+}
+
+.achievement-description {
+    font-size: 14px;
+    color: #666;
+}
+

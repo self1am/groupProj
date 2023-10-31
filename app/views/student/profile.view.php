@@ -50,11 +50,21 @@
                     <a href="#" class="btn">View All</a>
                 </div>
                 <ul class="achievements-list">
-                    <li>Completed 3 Courses</li>
-                    <li>Completed 10 Quizzes</li>
-                    <li>Rapid Learner</li>
-                    </ul>                      
+                    <li>
+                        <strong>Completed 3 Courses</strong>
+                        <span>Successfully finished 3 courses</span>
+                    </li>
+                    <li>
+                        <strong>Completed 10 Quizzes</strong>
+                        <span>Finished 10 quizzes with good scores</span>
+                    </li>
+                    <li>
+                        <strong>Rapid Learner</strong>
+                        <span>Recognized for fast learning pace</span>
+                    </li>
+                </ul>
             </div>
+
         </div>
     </div> 
     <script src="<?=ROOT?>/assets/js/index.js"></script>
