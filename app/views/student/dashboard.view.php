@@ -36,7 +36,7 @@
                 <h2>Course Completion</h2>
                 <div class="course-cards">
                     <div class="course-card">
-                        <h3>Course Title 1</h3>
+                        <h3>Matter and Radiation</h3>
                         <div class="course-progress">60% completed</div>
                     </div>
                     <!-- More course cards -->
